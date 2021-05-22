@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="stylesheet_simplelist.css">
+	<title>Simple Book list</title>
+	<script src="script_simplelist.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div id="page-banner">
+				<h1 class="title">Bookorama</h1>
+				<p>Books for Ninja</p>
+				<form action="" id="search-books">
+					<input type="text" placeholder="Filter books...">
+				</form>
+			</div>
+		</header>
+		<div id="book-list">
+			<h2 class="listTitle">Books to Read</h2>
+			<ul>
+				<li>
+					<span class="name">The Sorcerer Stone</span>
+					<span class="delete">Delete</span>
+				</li>
+				<li>
+					<span class="name">The Chamber of Azcaban</span>
+					<span class="delete">Delete</span>
+				</li>
+				<li>
+					<span class="name">Lord of the Rings</span>
+					<span class="delete">Delete</span>
+				</li>
+				<li>
+					<span class="name">The Last Airbender</span>
+					<span class="delete">Delete</span>
+				</li>
+			</ul>
+		</div>
+		<form  id="add-books" action="">
+			<label for="#hideBooks">Hide all book title</label>
+			<input id="hideBooks" type="checkbox">
+			<br>
+			<input type="text" placeholder="Add a book...">
+			<br>
+			<button>Add</button>
+		</form>
+		<div class="tabbed">
+			<ul id="tabbed-nav">
+				<li><button>About</button></li>
+				<li><button>Contact</button></li>
+			</ul>
+			<div class="tabbed-content">
+				<div class="aboutCntnt show">
+					<h4>About</h4>
+					<p>About Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sequi odio assumenda, commodi ipsum adipisci id corrupti nobis architecto dolor.</p>
+				</div>
+				<div class="contactCntnt hide">
+					<h4>Contact</h4>
+					<p>Contact Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sequi odio assumenda, commodi ipsum adipisci id corrupti nobis architecto dolor.Contact Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sequi odio assumenda, commodi ipsum adipisci id corrupti nobis architecto dolor.Contact Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sequi odio assumenda, commodi ipsum adipisci id corrupti nobis architecto dolor.Contact Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sequi odio assumenda, commodi ipsum adipisci id corrupti nobis architecto dolor.Contact Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sequi odio assumenda, commodi ipsum adipisci id corrupti nobis architecto dolor.Contact Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sequi odio assumenda, commodi ipsum adipisci id corrupti nobis architecto dolor.</p>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	
+</body>
+</html>
